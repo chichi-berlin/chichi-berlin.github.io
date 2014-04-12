@@ -5,5 +5,5 @@ layout: default
 
 
 <div id="startLogo">
-<img src="images/logo.png"></img>
+<a href="{{ content }}"><img src="images/logo.png"></img></a>
 </div>
