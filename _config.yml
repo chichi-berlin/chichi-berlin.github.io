@@ -12,6 +12,7 @@ prose:
   media: "images"
   ignore:
     - css
+    - .gitignore
     - _config.yml
     - /_layouts
     - /_includes
