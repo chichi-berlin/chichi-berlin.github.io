@@ -1,0 +1,17 @@
+url: "http://iiihcchi.github.io"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
+pygments: true
+
+
+prose:
+  siteurl: "http://iiihcchi.github.io"
+  media: "images"
+  ignore:
+    - css
+    - _config.yml
+    - /_layouts
+    - /_includes
