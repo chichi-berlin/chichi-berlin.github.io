@@ -1,14 +1,21 @@
-body {background-color:#E60080}
-
-#startLogo {
-    width: 756px;
-    height: 669px;
-
-    position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
+html, body, #wrapper {
+	background-color:#E60080;
+   	height:100%;
+   	width: 100%;
+   	margin: 0;
+   	padding: 0;
+   	border: 0;
+   	font-family:American Typewriter;
+   	font-stretch: condensed;
+}
+#wrapper td {
+   	vertical-align: middle;
+   	text-align: center;
 }
 
+div, iframe {
+    margin: 0 auto;
+    display: block;
+    width: 70%;
+    height: 500px;
+}

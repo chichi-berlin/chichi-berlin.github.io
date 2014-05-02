@@ -4,6 +4,11 @@ layout: default
 
 
 
-<div id="startLogo">
-<a href="{{ content }}"><img src="images/logo.png"></img></a>
-</div>
+<table id="wrapper">
+      <tr>
+         <td><a href="{{ content }}/home"><img src="images/logo.png"></img></a></td>
+      </tr>
+</table>
+
+
+
