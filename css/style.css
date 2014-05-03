@@ -14,8 +14,9 @@ html, body, #wrapper {
 }
 
 div, iframe {
-    margin: 0 auto;
-    display: block;
-    width: 70%;
+    position: fixed;
+    top: 70px;
+    left: 200px;
+    width: 700px;
     height: 500px;
 }
