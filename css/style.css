@@ -1,9 +1,9 @@
-html, body, #wrapper {
-        background-color:#E60080;
-
-   font-family:American Typewriter;
+html, body {
+  background-color: #000000;
+   font-family: American Typewriter;
    font-stretch: condensed;
-        height:100%;
+   color: #80FF00;
+   height:100%;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -12,64 +12,45 @@ html, body, #wrapper {
     overflow-y: hidden
 }
 
+#wrapper {
+    background-color:#E60080;
+    width: 100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    }
 
 #wrapper td {
    	vertical-align: middle;
    	text-align: center;
 }
 
-#header-wrap {
+#offer {
+    position: relative;
+    line-height:130%;
+    left: 10%;
+    top: 15%;
+    float: left;
+    text-align:center;
+    font-size:25pt;
+   }
 
-    width: 100%;
-    height: 120px;
-    top: 0;
-    z-index: 1;
-    border-bottom: solid;
-    border-color: #89C800;
-    border-width: 1px;
+#map {
+  left: 30%;
+  top: 10%;
+  width: 520px;
+  height: 400px;
+  float: left;
+   }
 
-}
-#container{ 
+#hours {
+  position: relative;
   text-align: center;
-  line-height:120%;
-  font-size: 30pt;
-  padding-top: 20pt;
-  padding-bottom: 20pt;
-  height: 100%;
+  top: 80%;
+  }
+
+#p {
+  font-family: American Typewriter;
+   font-stretch: condensed;
 }
-
-.header-text {
-  text-align: center;
-  color:#89C800;
-  padding-top: 10pt;
-}
-
-.main-header-text {
-  font-size: 20pt;
-  margin: 0;
-  padding-bottom: 5pt
-}
-
-.sub-header-text {
-  font-size: 10pt;
-  margin: 0;
-}
-
-.logo {
-position: relative;
-left: 50%;
-float: left;
-}
-
-.logo-img {
-height: 70px; /* you can use % */
-}
-
-.header-space {
-  height: 20pt;
-}
-
-a:link {color:#89C800;
-text-decoration: none;}
-
-
