@@ -11,7 +11,7 @@ html, body {
   background-color: #231f20;
    font-family: American Typewriter;
    font-stretch: condensed;
-   color: #80FF00;
+   color: #99cc33 ;
    height:100%;
    width: 100%;
    margin: 0;
@@ -70,9 +70,9 @@ html, body {
 }
 
 #ribbon {
-  width: 80%;
   height: auto;
   margin-left: 20%;
+  margin-right: 20%;
   margin-top: 0%
   }
 
