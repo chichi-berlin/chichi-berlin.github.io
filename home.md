@@ -2,7 +2,6 @@
 layout: default
 ---
 <div id='offer'>
-<br>
 Gebrauchte Räder<br>
 Neu designte Räder<br>
 Oldtimer<br>
