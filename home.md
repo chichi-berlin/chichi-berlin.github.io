@@ -17,6 +17,7 @@ Ankauf
 <div id='hours'>
 <p>Montag bis Samstag: 10 bis 19 Uhr</p>
 </div>
+
 <div id='ribbon'>
 <img src="{{ content }}/images/ribbon.png"></img>
 </div>
@@ -46,8 +47,10 @@ var featureLayer = L.mapbox.featureLayer({
     .addTo(map);
 
 featureLayer.eachLayer(function(layer) {
-    var content = 'Flughafen Straße 50<br>12053 Berlin';
-    layer.bindPopup(content).openPopup();;
+    var popupContent=document.createElement('p');
+    popupContent.id = 'popup';
+    popupContent.innerHTML='<b>ChiChi</b><br>Flughafen Straße 50<br>12053 Berlin';
+    layer.bindPopup(popupContent).openPopup();
 });
 </script>
 
