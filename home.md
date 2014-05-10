@@ -45,8 +45,7 @@ var featureLayer = L.mapbox.featureLayer({
     .addTo(map);
 
 featureLayer.eachLayer(function(layer) {
-    var content = '<p>Flughafen Straße 50</p>' +
-        '<p>12053 Berlin</p>';
+    var content = 'Flughafen Straße 50<br>12053 Berlin';
     layer.bindPopup(content).openPopup();;
 });
 </script>
