@@ -35,8 +35,8 @@ var featureLayer = L.mapbox.featureLayer({
         features: [{
             type: 'Feature',
             properties: {
-                size: 5,
-                population: 10
+                'size': 5,
+                'marker-color': '#ff0099'
             },
             geometry: {
                 type: 'Point',
@@ -56,7 +56,7 @@ featureLayer.eachLayer(function(layer) {
 
 
 
-
+    
 
 
 
