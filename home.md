@@ -1,14 +1,11 @@
 ---
 layout: default
 ---
-<div id='hours'>
-Montag bis Samstag: 10 bis 19 Uhr
-</div>
-
 <div id='offer'>
+<br>
 Gebrauchte Räder<br>
 Neu designte Räder<br>
-Schöne Oldtimer<br>
+Oldtimer<br>
 Service Montage<br>
 Inspektionen<br>
 Inzahlungnahme<br>
@@ -18,9 +15,17 @@ Ankauf
 
 <div id='map'></div>
 
+<div id='hours'>
+<p>Montag bis Samstag: 10 bis 19 Uhr</p>
+</div>
+
+
 
 <script>
 var map = L.mapbox.map('map', 'chichi.i67bj050', { zoomControl:false })
+    .setView([52.481108,13.426183], 16);
+
+var map = L.mapbox.map('map', 'chichi.i725d13j', { zoomControl:false })
     .setView([52.481108,13.426183], 16);
 
 var featureLayer = L.mapbox.featureLayer({
@@ -45,4 +50,10 @@ featureLayer.eachLayer(function(layer) {
     layer.bindPopup(content).openPopup();;
 });
 </script>
+
+
+
+
+
+
 
