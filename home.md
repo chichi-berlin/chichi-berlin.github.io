@@ -18,15 +18,17 @@ Ankauf
 <div id='hours'>
 <p>Montag bis Samstag: 10 bis 19 Uhr</p>
 </div>
-
+<div id='ribbon'>
+<img src="{{ content }}/images/ribbon.png"></img>
+</div>
 
 
 <script>
-var map = L.mapbox.map('map', 'chichi.i67bj050', { zoomControl:false })
-    .setView([52.481108,13.426183], 16);
-
-// var map = L.mapbox.map('map', 'chichi.i725d13j', { zoomControl:false })
+// var map = L.mapbox.map('map', 'chichi.i67bj050', { zoomControl:false })
 //     .setView([52.481108,13.426183], 16);
+
+var map = L.mapbox.map('map', 'chichi.i725d13j', { zoomControl:false })
+    .setView([52.481108,13.426183], 16);
 
 var featureLayer = L.mapbox.featureLayer({
         type: 'FeatureCollection',
