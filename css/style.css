@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'American Typewriter';
+    src: url('american_typewriter_condensed.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: condensed;
+}
+
+
 html, body {
   background-color: #000000;
    font-family: American Typewriter;
