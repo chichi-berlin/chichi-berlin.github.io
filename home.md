@@ -5,7 +5,8 @@ layout: default
 Gebrauchte Räder<br>
 Neu designte Räder<br>
 Oldtimer<br>
-Service Montage<br>
+Service<br> 
+Montage<br>
 Inspektionen<br>
 Inzahlungnahme<br>
 Ankauf
@@ -28,7 +29,7 @@ Ankauf
 //     .setView([52.481108,13.426183], 16);
 
 var map = L.mapbox.map('map', 'chichi.i725d13j', { zoomControl:false })
-    .setView([52.481108,13.426183], 15);
+    .setView([52.486334,13.426237], 14);
 
 var featureLayer = L.mapbox.featureLayer({
         type: 'FeatureCollection',
