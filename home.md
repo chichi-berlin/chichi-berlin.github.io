@@ -41,7 +41,7 @@ var featureLayer = L.mapbox.featureLayer({
             },
             geometry: {
                 type: 'Point',
-                coordinates: [13.426183,52.481108]
+                coordinates: [13.425884, 52.481035]
             }
         }]
     })
