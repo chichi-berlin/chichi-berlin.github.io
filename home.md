@@ -16,7 +16,7 @@ Ankauf
 <div id='map'></div>
 
 <div id='hours'>
-<p>Montag bis Samstag: 10 bis 19 Uhr</p>
+<p>Öffnungszeiten 10:00 bis 19 Uhr - geschlossen Donnerstag und Sonntag</p>
 </div>
 
 <div id='ribbon'>
@@ -29,30 +29,23 @@ Ankauf
 //     .setView([52.481108,13.426183], 16);
 
 var map = L.mapbox.map('map', 'chichi.i725d13j', { zoomControl:false })
-    .setView([52.486334,13.426237], 14);
+    .setView([52.482,13.425884], 14);
+var customIcon = L.icon({
+    iconUrl: '{{ content }}/images/logo_p.png',
 
-var featureLayer = L.mapbox.featureLayer({
-        type: 'FeatureCollection',
-        features: [{
-            type: 'Feature',
-            properties: {
-                'size': 5,
-                'marker-color': '#ff0099'
-            },
-            geometry: {
-                type: 'Point',
-                coordinates: [13.425884, 52.481035]
-            }
-        }]
-    })
-    .addTo(map);
-
-featureLayer.eachLayer(function(layer) {
-    var popupContent=document.createElement('p');
-    popupContent.id = 'popup';
-    popupContent.innerHTML='<b>ChiChi</b><br>Flughafen Straße 50<br>12053 Berlin';
-    layer.bindPopup(popupContent).openPopup();
+    iconSize:     [38, 31], 
+    iconAnchor:   [20, 20], 
+    popupAnchor:  [0, -20] 
 });
+
+
+var marker = L.marker([52.481035,13.425884], {icon: customIcon});
+marker.addTo(map);
+var popupContent=document.createElement('p');
+popupContent.id = 'popup';
+popupContent.innerHTML='<b>ChiChi</b><br>Flughafen Straße 50<br>12053 Berlin';
+marker.bindPopup(popupContent).openPopup();
+
 </script>
 
 
