@@ -17,26 +17,32 @@ html, body {
    overflow-x: hidden;
 }
 
+#logoWrapper {
+   background-color: #ff0099;
+   position:absolute; 
+  top:0; bottom:0; 
+  width:100%;
+  background-color: #ff0099
+}
+
+#logo {
+   position: absolute;
+   background-color: #ff0099;
+   top: 50%;
+   left: 50%;
+   width: 750px;
+   height: 623px;
+   margin-top: -311.5px; /* Half the height */
+   margin-left: -375px; /* Half the width */
+}
+
 p.thick {font-weight:bold;}
 
 p {
   margin-bottom:0;
 }
 
-#wrapper2 {
-    background-color:#ff0099;
-    width: 90%;
-    height: 90%;
-    margin-left: 5%;
-    margin-top: 2.5%;
-    padding: 5 5 5 5;
-    border: 0;
-    }
 
-#wrapper2 td {
-   	vertical-align: middle;
-   	text-align: center;
-}
 
 #offer {
     margin-top: 4%;
@@ -88,6 +94,5 @@ p {
   margin: 0;
   padding: 5px;
  }
-
 
 
