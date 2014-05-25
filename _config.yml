@@ -16,4 +16,5 @@ prose:
     - _config.yml
     - /_layouts
     - /_includes
-    - index.html
+    - images
+    - index.md
