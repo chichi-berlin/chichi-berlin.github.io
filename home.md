@@ -18,6 +18,9 @@ Ankauf
 <div id='hours'>
 <p>Öffnungszeiten 10:00 bis 19 Uhr - geschlossen Donnerstag und Sonntag</p>
 </div>
+<div id='custom'>
+<p>Hier steht dann dein Text oder nichts</p>
+</div>
 
 <div id='ribbon'>
 <img src="{{ content }}/images/ribbon.png"></img>
