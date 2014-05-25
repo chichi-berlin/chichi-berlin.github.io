@@ -1,6 +1,6 @@
----
-layout: default
----
+{% include header.html %}
+{% include sidebar.html %}
+
 <div id='offer'>
 Gebrauchte Räder<br>
 Neu designte Räder<br>
@@ -14,18 +14,13 @@ Ankauf
 
 
 <div id='map'></div>
-
-<div id='hours'>
-<p>Öffnungszeiten 10:00 bis 19 Uhr - geschlossen Donnerstag und Sonntag</p>
+ 
+ <div id='hours'>
+     {{ content }}
 </div>
-<div id='custom'>
-<p>Hier steht dann dein Text oder nichts</p>
-</div>
-
 <div id='ribbon'>
-<img src="{{ content }}/images/ribbon.png"></img>
+<img src="/images/ribbon.png"></img>
 </div>
-
 
 <script>
 // var map = L.mapbox.map('map', 'chichi.i67bj050', { zoomControl:false })
@@ -34,7 +29,7 @@ Ankauf
 var map = L.mapbox.map('map', 'chichi.i725d13j', { zoomControl:false })
     .setView([52.482,13.425884], 14);
 var customIcon = L.icon({
-    iconUrl: '{{ content }}/images/logo_p.png',
+    iconUrl: '/images/logo_p.png',
 
     iconSize:     [38, 31], 
     iconAnchor:   [20, 20], 
@@ -51,9 +46,8 @@ marker.bindPopup(popupContent).openPopup();
 
 </script>
 
-
-
-    
-
-
-
+	 
+{% include footer.html %}
+ 
+ 
+ 
