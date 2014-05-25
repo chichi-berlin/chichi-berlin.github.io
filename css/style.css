@@ -30,10 +30,10 @@ html, body {
    background-color: #ff0099;
    top: 50%;
    left: 50%;
-   width: 750px;
-   height: 623px;
-   margin-top: -311.5px; /* Half the height */
-   margin-left: -375px; /* Half the width */
+   width: 700px;
+   height: 581px;
+   margin-top: -290.5px; /* Half the height */
+   margin-left: -350px; /* Half the width */
 }
 
 p.thick {font-weight:bold;}

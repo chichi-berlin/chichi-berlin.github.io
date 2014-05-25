@@ -15,6 +15,6 @@ layout: default
  -->
 <a href="{{ content }}/home">
 <div id="logoWrapper">
-<img id="logo" src="{{ content }}/images/logo.png"></img>
+<img id="logo" src="{{ content }}/images/logo_s.png"></img>
 </div>
 </a>
