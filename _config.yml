@@ -18,3 +18,4 @@ prose:
     - /_includes
     - images
     - index.md
+    - CNAME
