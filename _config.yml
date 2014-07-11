@@ -1,4 +1,4 @@
-url: "http://iiihcchi.github.io"
+url: "http://chichi-berlin.github.io"
 
 paginate: 10
 
@@ -8,7 +8,7 @@ pygments: true
 
 
 prose:
-  siteurl: "http://iiihcchi.github.io"
+  siteurl: "http://chichi-berlin.github.io"
   media: "images"
   ignore:
     - css
