@@ -3,4 +3,4 @@ layout: home
 published: true
 ---
 
-Öffnungszeiten: immer geschlossen
+Öffnungszeiten: Montag-Samstag 10-19 Uhr ; Donnerstag geschlossen
