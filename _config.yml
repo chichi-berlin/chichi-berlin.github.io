@@ -1,21 +1,26 @@
-url: "http://chichi-berlin.github.io"
+url: 'http://chichi-berlin.github.io'
 
 paginate: 10
 
 markdown: rdiscount
 permalink: pretty
-pygments: true
+highlighter: 'pygments'
 
 
 prose:
-  siteurl: "http://chichi-berlin.github.io"
-  media: "images"
-  ignore:
-    - css
-    - .gitignore
-    - _config.yml
-    - /_layouts
-    - /_includes
-    - images
-    - index.md
-    - CNAME
+    siteurl: 'http://chichi-berlin.github.io'
+    media: 'images'
+    ignore:
+        - css
+        - .gitignore
+        - _config.yml
+        - /_layouts
+        - /_includes
+        - images
+        - index.md
+        - CNAME
+
+exclude: [
+    'Gemfile',
+    'build.sh'
+]
